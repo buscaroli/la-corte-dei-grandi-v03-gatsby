@@ -7,6 +7,8 @@ import contactsStyles from './contacts.module.scss'
 
 const Contacts = () => {
 
+    console.log('MAPBOX_KEY: ', process.env.GATSBY_MAPBOX_KEY)
+
     const [viewport, setViewport] = useState({
         latitude: 44.5127578,
         longitude: 11.8291743,
@@ -42,9 +44,9 @@ const Contacts = () => {
                     <ReactMapGL
                         className={contactsStyles.contacts__map__mapbox}
                         {...viewport} 
-                        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_KEY}
+                        mapboxApiAccessToken={process.env.GATSBY_MAPBOX_KEY}
                         onViewportChange={viewport => {setViewport(viewport)}}
-                        mapStyle='mapbox://styles/mmontyy78/ckgzb00wy147019npvt3madnu'>
+                        mapStyle={'mapbox://styles/mmontyy78/ckgzb00wy147019npvt3madnu'}>
 
                     </ReactMapGL>
                 </div>
