@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import { IconContext } from 'react-icons'
 import { FaFacebook } from 'react-icons/fa'
 import ReactMapGL from 'react-map-gl'
+import contactsStyles from './contacts.scss'
 
 const Contacts = () => {
 
@@ -28,18 +29,18 @@ const Contacts = () => {
 
     return (
         <Layout>
-            <div className='contacts'>
-                <div className='contacts__text'>
-                    <p className='contacts__text--intro'>
+            <div className={contactsStyles.contacts}>
+                <div className={contactsStyles.contacts__text}>
+                    <p className={contactsStyles.contacts__text__intro}>
                         Avete visto il cane dei vostri sogni o volete ulteriori informazioni? Se volete contattarci lo potete fare tramite la nostra pagina <span>Facebook {icon_link()}</span>, li' potrete trovare tutte le informazioni che cercate.
                     </p>
                     <p>
                         Vi contatteremo al piu' presto!
                     </p>
                 </div>
-                <div className='contacts__map'>
+                <div className={contactsStyles.contacts__map}>
                     <ReactMapGL
-                        className='contacts__map--mapbox'
+                        className={contactsStyles.contacts__map__mapbox}
                         {...viewport} 
                         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_KEY}
                         onViewportChange={viewport => {setViewport(viewport)}}

@@ -61,7 +61,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         
-        &--fci {
+        &__fci {
             width: 12rem;
 
             @media (max-width: 900px) {
@@ -73,7 +73,7 @@
             }
         }
 
-        &--enci {
+        &__enci {
             width: 14rem;
 
             @media (max-width: 900px) {
