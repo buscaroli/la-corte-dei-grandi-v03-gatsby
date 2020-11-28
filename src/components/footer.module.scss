@@ -1,10 +1,10 @@
 .footer {
-   
     font-size: 1.4rem;
     letter-spacing: 3px;
     padding-top: 1rem;
     font-family: Lato, sans-serif;
     margin: 0 auto;
+    transform: translateY(-.7rem);
 
     @media (max-width: 900px) {
         font-size: 1rem;
