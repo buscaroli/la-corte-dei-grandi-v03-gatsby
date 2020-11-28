@@ -38,8 +38,9 @@
     }
 
     &__map{
-        border: solid red 2px;
+        border-radius: .5rem;
         height: 30rem;
+        overflow: hidden;
         
         @media(max-width: 600px){
             padding: 1rem 0;

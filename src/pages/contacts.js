@@ -7,8 +7,6 @@ import contactsStyles from './contacts.module.scss'
 
 const Contacts = () => {
 
-    console.log('MAPBOX_KEY: ', process.env.GATSBY_MAPBOX_KEY)
-
     const [viewport, setViewport] = useState({
         latitude: 44.5127578,
         longitude: 11.8291743,
@@ -18,6 +16,7 @@ const Contacts = () => {
         width: '100%',
         height: '100%'        
     })
+
 
     const icon_link = () => {
         return (
