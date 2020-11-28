@@ -1,0 +1,65 @@
+.contacts{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 2rem;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    letter-spacing: .8px;
+    line-height: 1.3;
+    padding-right: 1.5rem;
+    
+        & span {
+            color: #ffaf4d;
+        }
+
+
+        @media (max-width: 900px) {
+           width: 100%;
+           grid-template-columns: 1fr;
+           padding-right: 0;
+        }
+        
+        @media (max-width: 600px) {
+             padding: 1rem 0;
+            
+        }
+
+    &__text{
+        display: inline;
+
+        &--intro a{
+            display: inline-block;
+            transform: translateY(.5rem);
+            padding-left: .5rem;
+            padding-right: 1rem;
+        }
+    }
+
+    &__map{
+        border: solid red 2px;
+        height: 30rem;
+        
+        @media(max-width: 600px){
+            padding: 1rem 0;
+        }
+
+        &--mapbox{
+            border-radius: .5rem;
+
+            @media(max-width: 900px){
+                padding: 1rem 0;
+                
+            }
+
+            @media(max-width: 600px){
+                padding: 1rem 0;
+                width: 100%;
+            }
+        }
+
+        
+
+    }
+}

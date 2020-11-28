@@ -1,0 +1,11 @@
+.app {
+    display: grid;
+    row-gap: 3rem;
+    background-color: #222;
+    color: #eee;
+    justify-content: center;
+    grid-template-rows: 3rem auto 5rem;
+    height: 100vh;
+
+}
+

@@ -1,0 +1,146 @@
+.header {
+    position: relative;
+    display: grid;
+    padding-top: 2rem;
+    grid-template: 
+        '.    .    logo .    text text text text text text .    .   '
+        '.    .    logo .    text text text text text text .    .   '
+        '.    club club club subt subt subt subt subt subt .    .   ';
+    margin-bottom: 3rem;
+
+    @media (max-width: 900px) {
+        grid-template: 
+            '.   .    logo .    text text text text text text'
+            '.   .    logo .    text text text text text text'
+            '.   club club club subt subt subt subt subt subt';
+    }
+
+    @media (max-width: 600px) {
+        grid-template: 
+            '.    logo text text text text text text text'
+            '.    logo text text text text text text text'
+            'club club club subt subt subt subt subt subt';
+    }
+    
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    &__logo {
+        grid-area: logo;
+        margin-top: 1rem;
+        //background-image: url(./assets/images/diamond.png);
+        z-index: 10; 
+        //background-size: cover;
+        //filter: grayscale(100%) contrast(100%) brightness(1.2);
+
+        & img {
+            width: 17rem;
+
+            @media (max-width: 900px) {
+                width: 12rem;
+            }
+
+            @media (max-width: 600px) {
+                width: 7rem;
+                padding-top: 1.3rem;
+            }
+            
+        }
+    }
+
+    &__clubs {
+        grid-area: club;
+        z-index: 10;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        &--fci {
+            width: 12rem;
+
+            @media (max-width: 900px) {
+                width: 8rem;
+            }
+
+            @media (max-width: 600px){
+                width: 6rem;
+            }
+        }
+
+        &--enci {
+            width: 14rem;
+
+            @media (max-width: 900px) {
+                width: 9rem;
+            }
+
+            @media (max-width: 600px) {
+                width: 6rem;
+            }
+        }
+
+    }
+
+
+    &__title {
+        grid-area: text;
+        position: relative;
+        font-family: 'Great Vibes', cursive;
+        font-size: 6.7rem;
+        justify-self: center;
+        text-shadow: .1rem .1rem 1.5rem #e96710;
+        margin-top: 20px;
+
+        @media (max-width: 900px) {
+            font-size: 4.5rem;
+        }
+
+        @media (max-width: 600px) {
+            font-size: 3.6rem;
+        }
+    }
+
+    &__subtitle {
+        grid-area: subt;
+        position: relative;
+        //padding-top: 1.5rem;
+        text-align: center;
+        font-family: Lato, sans-serif;
+        font-size: 2.4rem;
+        font-weight: 400;
+        justify-self: center;
+        font-stretch: semi-expanded;
+
+        @media (max-width: 900px) {
+            font-size: 1.6rem;
+        }
+
+        @media (max-width: 600px){
+            font-size: 1.3rem;
+        }
+
+        & span {
+            display: table;
+            margin: 0 auto;
+            font-size: 3.5rem;
+            font-weight: 300;
+            margin-top: .6rem;
+            font-stretch: expanded;
+            color: #ffaf4d;
+
+            @media (max-width: 900px) {
+                font-size: 2.2rem;
+            }
+
+            @media (max-width: 600px){
+                font-size: 1.8rem;
+            }
+        }
+    }
+}

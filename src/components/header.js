@@ -1,42 +1,27 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React from 'react'
+import logo from '../assets/images/diamond.png'
+import enci from '../assets/images/logo-enci-orange.png'
+import fci from '../assets/images/logo-fci-orange.png'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+const Header = () => {
+    return (
+        <div className='header'>
+            
+                <div className='header__logo'>
+                    <img src={logo} alt='logo diamante'/>
+                </div>
+                <div className='header__clubs'>
+                    <img className='header__clubs--fci' src={fci} alt='logo fci'/>
+                    <img className='header__clubs--enci' src={enci} alt='logo enci'/>
+                </div>
+                <h1 className='header__title'>
+                    La Corte dei Grandi
+                </h1>
+                <h2 className='header__subtitle'>
+                    Allevamento cinofilo per la selezione del <span>Cavalier King Charles Spaniel</span>
+                </h2>    
+        </div>
+    )
 }
 
 export default Header

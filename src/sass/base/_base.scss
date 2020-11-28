@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; // 10px
+    width: 80%;
+    margin: 0 auto;
+    background-color: #222;
+
+    @media (max-width: 600px) {
+        width: 100%;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
