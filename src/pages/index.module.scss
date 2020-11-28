@@ -27,9 +27,9 @@
         align-self: center;
         max-width: 60rem;
         
-        &--1,
-        &--2,
-        &--3 {
+        &__1,
+        &__2,
+        &__3 {
             width: 30vw;
             border-radius: .5rem;
 
@@ -54,20 +54,20 @@
             }
         }
 
-        &--1 {
+        &__1 {
             @media(max-width:600px){
                 grid-area: pic1;
             }
         }
 
-        &--2 {
+        &__2 {
             @media(max-width:600px){
                 grid-area: pic2;
                 padding-top: 1rem;
             }
         }
 
-        &--3 {
+        &__3 {
             @media(max-width:600px){
                 grid-area: pic3;
                 padding-top: 1rem;
@@ -101,7 +101,7 @@
                 
             }
         }
-        &--1 {
+        &__1 {
             @media(max-width:600px){
                 grid-area: txt1;
                 padding-bottom: 1rem;
@@ -109,7 +109,7 @@
             }
         }
 
-        &--2 {
+        &__2 {
             @media(max-width:600px){
                 grid-area: txt2;
                 padding-bottom: 1rem;
@@ -117,7 +117,7 @@
             }
         }
 
-        &--3 {
+        &__3 {
             @media(max-width:600px){
                 grid-area: txt3;
             }

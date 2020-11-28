@@ -4,9 +4,7 @@ import Header from './header'
 import Footer from './footer'
 import Navbar from './navbar'
 
-import '../styles/global.css'
-import layoutStyles from './layout.scss'
-
+import layoutStyles from './layout.module.scss'
 
 function Layout(props) {
     return (

@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import { IconContext } from 'react-icons'
 import { FaFacebook } from 'react-icons/fa'
 import ReactMapGL from 'react-map-gl'
-import contactsStyles from './contacts.scss'
+import contactsStyles from './contacts.module.scss'
 
 const Contacts = () => {
 

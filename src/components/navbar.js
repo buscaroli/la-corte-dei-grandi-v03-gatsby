@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { IconContext } from 'react-icons'
 import { FaFacebook } from 'react-icons/fa'
-import navbarStyles from './navbar'
+import navbarStyles from './navbar.module.scss'
 
 function Navbar() {
     return (
