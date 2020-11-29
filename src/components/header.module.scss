@@ -17,8 +17,9 @@
 
     @media (max-width: 600px) {
         grid-template: 
-            '.    logo text text text text text text text'
-            'club club club subt subt subt subt subt subt';
+            'text text text text text text text'
+            'subt subt subt subt subt subt subt'
+            '.    .    logo club club .    .   ';
     }
     
     &::before {
@@ -48,7 +49,7 @@
 
             @media (max-width: 600px) {
                 width: 8rem;
-                padding-top: 1.3rem;
+                
             }
             
         }
@@ -117,11 +118,11 @@
         font-stretch: semi-expanded;
 
         @media (max-width: 900px) {
-            font-size: 1.6rem;
+            font-size: 2rem;
         }
 
         @media (max-width: 600px){
-            font-size: 1.3rem;
+            font-size: 1.8rem;
         }
 
         & span {
@@ -134,11 +135,11 @@
             color: #ffaf4d;
 
             @media (max-width: 900px) {
-                font-size: 2.2rem;
+                font-size: 2.6rem;
             }
 
             @media (max-width: 600px){
-                font-size: 1.8rem;
+                font-size: 2.2rem;
             }
         }
     }
