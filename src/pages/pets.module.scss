@@ -5,7 +5,7 @@
     align-content: flex-start;
     align-items: center;
 
-    &__pic{
+    &__pic {
         width: 23vw;
         border-radius: .3rem; 
         flex-grow: 1;
@@ -23,4 +23,5 @@
             width: 100vw;
             margin-top: 0;
         }
+    }
 }

@@ -1,0 +1,18 @@
+backend:
+  name: git-gateway
+  branch: main
+  
+media_folder: static/pets
+public_folder: /pets
+
+collections:
+  - name: "pets"
+    label: "Aggiungi"
+    folder: "pets/"
+    create: true
+    widget: "image"
+    delete: false
+    editor:
+      preview: false
+    fields:
+      - { name: "foto", widget: "image" }
