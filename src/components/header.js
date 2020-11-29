@@ -1,6 +1,6 @@
 import React from 'react'
 import headerStyles from './header.module.scss'
-import logo from '../assets/images/diamond.png'
+import logo from '../assets/images/diamante.svg'
 import enci from '../assets/images/logo-enci-orange.png'
 import fci from '../assets/images/logo-fci-orange.png'
 

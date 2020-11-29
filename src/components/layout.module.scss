@@ -4,7 +4,15 @@
     background-color: #222;
     color: #eee;
     justify-content: center;
-    grid-template-rows: 3rem 28rem auto 2rem;
+    grid-template-rows: 2.5rem 32rem auto 2rem;
     height: 100vh;
+
+    @media (max-width: 900px) {
+        grid-template-rows: 2.5rem 24rem auto 2rem;
+    }
+
+    @media (max-width: 600px) {
+        grid-template-rows: 2.5rem 22rem auto 2rem;
+    }
 }
 

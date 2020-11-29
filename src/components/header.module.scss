@@ -3,10 +3,10 @@
     display: grid;
     padding-top: 2rem;
     grid-template: 
-        '.    .    logo .    text text text text text text .    .   '
-        '.    .    logo .    text text text text text text .    .   '
-        '.    club club club subt subt subt subt subt subt .    .   ';
-    margin-bottom: 3rem;
+        '.   .   .    .    logo .    text text text text text text'
+        '.   .   .    .    logo .    text text text text text text'
+        '.   .   .    club club club subt subt subt subt subt subt';
+    
 
     @media (max-width: 900px) {
         grid-template: 
@@ -34,11 +34,12 @@
 
     &__logo {
         grid-area: logo;
-        margin-top: 1rem;
         //background-image: url(./assets/images/diamond.png);
         z-index: 10; 
         //background-size: cover;
-        //filter: grayscale(100%) contrast(100%) brightness(1.2);
+        filter: invert(90%);
+        transform: scale(.9);
+        
 
         & img {
             width: 17rem;
@@ -60,6 +61,7 @@
         z-index: 10;
         display: grid;
         grid-template-columns: 1fr 1fr;
+    
         
         &__fci {
             width: 12rem;
