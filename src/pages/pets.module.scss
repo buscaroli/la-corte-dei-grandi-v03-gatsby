@@ -1,0 +1,26 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+
+    &__pic{
+        width: 23vw;
+        border-radius: .3rem; 
+        flex-grow: 1;
+        margin-top: .7rem; 
+    
+        @media(max-width: 1200px) {
+            width: 30vw;
+        }
+    
+        @media(max-width: 900px) {
+            width: 45vw;
+        }
+    
+        @media(max-width: 600px) {
+            width: 100vw;
+            margin-top: 0;
+        }
+}
