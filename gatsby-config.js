@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `La Corte dei Grandi`,
     description: `Allevamento Cinofilo del Cavalier King Spaniel a Conselice, Ravenna, Emilia-Romagna`,
-    keywords: 'allevamento, cinofilo, cavalier king spaniel, cavalier, king, spaniel, cavalier king, cane, cani, cuccioli, vendita, conselice, ravenna'
+    keywords: 'allevamento, cinofilo, cavalier king spaniel, cavalier, king, spaniel, cavalier king, cane, cani, cuccioli, vendita, conselice, ravenna',
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -22,10 +22,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffaf4d`,
+        theme_color: `#ffaf4d`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/gatsby-astronaut.png`, // This path is relative to the root of the site.
       },
     },
     {

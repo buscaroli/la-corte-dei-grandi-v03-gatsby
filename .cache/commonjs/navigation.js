@@ -138,7 +138,6 @@ const navigate = (to, options = {}) => {
           });
         }
 
-        console.log(`Site has changed on server. Reloading browser`);
         window.location = pathname;
       }
     }
