@@ -13,12 +13,20 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     'gatsby-image',
+    'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pets',
         path: `${__dirname}/static/pets`,
       },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'posts',
+        path: `${__dirname}/src/posts`
+      }
     },
     'gatsby-plugin-netlify-cms',
     'gatsby-transformer-sharp',
@@ -34,6 +42,21 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-astronaut.png`, // This path is relative to the root of the site.
       },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          'gatsby-remark-relative-images',
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 150,
+              linkImagesToOriginal: false
+            }
+          }
+        ]
+      }
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
