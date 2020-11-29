@@ -1,0 +1,33 @@
+.title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 8rem;
+    text-shadow: .1rem .1rem 1.5rem #e96710;
+    margin-top: 0 auto;
+    justify-self: center;
+
+    @media (max-width: 900px) {
+        font-size: 6rem;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 4rem;
+    }
+}
+
+
+.subtitle {
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    text-shadow: .1rem .1rem 1.5rem #e96710;
+    justify-self: center;
+    margin-top: -6rem;
+
+    @media (max-width: 900px) {
+        font-size: 3rem;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 2rem;
+    }
+}
