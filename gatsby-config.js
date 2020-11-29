@@ -5,7 +5,8 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `La Corte dei Grandi`,
-    description: `Allevamento Cinofilo, Conselice, Ravenna, Romagna, Emilia-Romagna, Cavalier King Spaniel, Cavalier-King`,
+    description: `Allevamento Cinofilo del Cavalier King Spaniel a Conselice, Ravenna, Emilia-Romagna`,
+    keywords: 'allevamento, cinofilo, cavalier king spaniel, cavalier, king, spaniel, cavalier king, cane, cani, cuccioli, vendita, conselice, ravenna'
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -32,9 +33,8 @@ module.exports = {
       options: {
         name: 'pets',
         path: `${__dirname}/static/pets`,
-        ignore: [**/.*],
-      }
-    }
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
