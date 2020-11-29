@@ -13,6 +13,13 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     'gatsby-image',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'pets',
+        path: `${__dirname}/static/pets`,
+      },
+    },
     'gatsby-plugin-netlify-cms',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
@@ -37,13 +44,6 @@ module.exports = {
         ],
         display: 'swap'
       }
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'pets',
-        path: `${__dirname}/static/pets`,
-      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
