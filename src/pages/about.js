@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import aboutStyles from './about.module.scss'
-import pic1 from '../assets/images/about1.jpg'
+import pic1 from '../assets/images/about1-ex.jpg'
 
 
 const About = () => {
