@@ -129,13 +129,13 @@ var plugins = [{
     "background_color": "#ffaf4d",
     "theme_color": "#ffaf4d",
     "display": "minimal-ui",
-    "icon": "src/images/gatsby-astronaut.png",
+    "icon": "src/images/diamante_arancio.svg",
     "legacy": true,
     "theme_color_in_head": true,
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "6d91c86c0fde632ba4cd01062fd9ccfa"
+    "cacheDigest": "ca172113185510e2aff7cbc5d8aec03e"
   }
 }, {
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-google-fonts/gatsby-ssr */ "./node_modules/gatsby-plugin-google-fonts/gatsby-ssr.js"),

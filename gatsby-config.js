@@ -40,7 +40,7 @@ module.exports = {
         background_color: `#ffaf4d`,
         theme_color: `#ffaf4d`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-astronaut.png`, // This path is relative to the root of the site.
+        icon: `src/images/diamante_arancio.svg`, // This path is relative to the root of the site.
       },
     },
     {

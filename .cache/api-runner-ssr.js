@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/matt/code/la-corte-dei-grandi-v03-gatsby/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#ffaf4d","theme_color":"#ffaf4d","display":"minimal-ui","icon":"src/images/gatsby-astronaut.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"6d91c86c0fde632ba4cd01062fd9ccfa"},
+      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#ffaf4d","theme_color":"#ffaf4d","display":"minimal-ui","icon":"src/images/diamante_arancio.svg","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"ca172113185510e2aff7cbc5d8aec03e"},
     },{
       plugin: require('/home/matt/code/la-corte-dei-grandi-v03-gatsby/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["Great Vibes","cursive source sans pro:300,400,400i,700"],"display":"swap"},
