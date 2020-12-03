@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import aboutStyles from './about.module.scss'
-import pic1 from '../assets/images/about1-ex.jpg'
+import pic1 from '../assets/images/about/about.jpg'
 
 
 const About = () => {
@@ -13,18 +13,23 @@ const About = () => {
                 </div>
                 
                 <div className={aboutStyles.about__text}>
-                    <p className={aboutStyles.about__text__1}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quia studebat laudi et dignitati, multum in virtute processerat. 
-                        Si sapiens, ne tum quidem miser, <span>cum ab Oroete, praetore Darei</span>, in crucem actus est. Conferam tecum, quam cuique verso rem subicias.
-                        An est aliquid, <span>quod te sua sponte delectet?</span> Ita multo sanguine profuso in laetitia et in victoria est mortuus. 
-                    </p>
-                    
+                    <p>
+                        Mi chiamo Elisa e l’incontro con il mio primo Cavalier King ha segnato per me l’inizio di una bellissima avventura. Quando ho conosciuto la mia prima Cavalier, Lady Isabel, ho trovato in lei tutto ciò che desideravo in un cane: dolcezza a non finire, delicatezza, giocosità e una incredibile bellezza estetica: il mantello bianco perla e rubino mi ha stregata, come la immensa espressività degli occhi, e le orecchie, elegantissime e morbide.
+                    </p> 
                     <br />
                     
-                    <p className={aboutStyles.about__text__3}>
-                        Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit</span>. Hoc etsi multimodis reprehendi potest, tamen accipio, quod dant. 
-                        Verum esto: verbum ipsum voluptatis non habet dignitatem, nec nos fortasse intellegimus. Quamquam te quidem video minime esse deterritum. Nescio quo modo praetervolavit oratio. Graecum enim hunc versum nostis omnes-: Suavis laborum est praeteritorum memoria. Duo Reges: constructio interrete. Uterque enim summo bono fruitur, id est voluptate. Nam et a te perfici istam disputationem volo, nec tua mihi oratio longa videri potest. 
-                        Et ille ridens: Video, inquit, quid agas; Non enim, <span>si omnia non sequebatur</span>, idcirco non erat ortus illinc. Primum Theophrasti, Strato, physicum se voluit.
+                    <p>
+                        Dopo l’arrivo di Lady Isabel non ho potuto più resistere e sono arrivati pian piano i miei meravigliosi amori tutti blenheim e tricolor: i miei colori preferiti. Ho iniziato ad allevare nel 2014 , ho poi conseguito il Master di Allevatore Cinofilo di ENCI (l’Ente Nazionale Della Cinofilia Italiana) sono titolare dell’affisso Enci Della Corte dei  Grandi   e, dall’inizio di questa avventura che è la mia grande passione, non ho mai smesso né mai smetterò di studiare tutto ciò che è necessario conoscere, a livello comportamentale, morfologico e veterinario (e la lista potrebbe essere infinita, perché il mondo cinofilo è vastissimo), per allevare con professionalità e impegno.  
+                    </p> 
+                    <br />
+                    
+                    <p>
+                        Nel 2017 un secondo amore canino è entrato nella mia vita: due splendidi e morbidissimi Chihuahua a pelo lungo che hanno conquistato il mio cuore con la loro dolcezza, la loro affettuosità e la loro grande energia. 
+                    </p>   
+                    <br />
+                    
+                    <p>
+                        Viviamo in campagna,  tutti i miei cani hanno grandi spazi verdi per correre , per divertirsi e per rincorrere le farfalle che è l’hobby preferito dei miei Cavalier e dei miei Chiuhahua.
                     </p>
                 </div>        
             </div>
