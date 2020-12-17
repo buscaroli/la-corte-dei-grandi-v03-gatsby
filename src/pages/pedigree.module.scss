@@ -1,0 +1,65 @@
+.pedigree {
+    display: inline;
+    margin: 0 auto;
+
+    &__title{    
+        text-align: center;
+        font-family: 'Great Vibes', cursive;
+        font-weight: 400;
+        justify-self: center;
+        font-size: 6rem;
+        font-weight: 300;
+        margin-top: .6rem;
+        font-stretch: expanded;
+        color: #ffaf4d;
+
+
+        @media (max-width: 900px) {
+            font-size: 4rem;
+        }
+
+        @media (max-width: 600px){
+            font-size: 5rem;
+        }
+    }
+    
+
+    &__pic{
+        display: inline;
+        width: 80vw;
+        padding: 2rem 0;
+        
+        &__1{
+            border-radius: .5rem;
+            width: 100%;
+        }
+    }
+    
+    &__text {
+        padding-top: 2rem;
+        font-size: 2.5rem;
+        font-family: Lato, sans-serif;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        
+
+        & span {
+            color: #ffaf4d;
+        }
+
+
+        @media (max-width: 900px) {
+           font-size: 1.8rem;
+        }
+        
+        @media (max-width: 600px) {
+            text-align: center;
+            padding: 1rem .5rem;        
+        }
+
+        & p {
+            text-align: justify;
+        }
+    }
+}

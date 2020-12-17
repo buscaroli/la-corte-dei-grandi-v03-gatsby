@@ -14,7 +14,6 @@
             color: #ffaf4d;
         }
 
-
         @media (max-width: 900px) {
            width: 100%;
            grid-template-columns: 1fr;
@@ -26,14 +25,29 @@
             
         }
 
+        &__paw {
+            margin-right: 2rem;
+            transform: scale(.8) translateY(.8rem);
+        }
+
     &__text{
         display: inline;
 
-        &--intro a{
+        &__span {
             display: inline-block;
-            transform: translateY(.5rem);
-            padding-left: .5rem;
-            padding-right: 1rem;
+            transform: translateY(.7rem);
+        }
+
+
+        & ul {
+            line-height: 2;
+            list-style-type: none;
+            margin: 3rem auto 3rem 3rem;
+            
+            & a {
+                color: #ffaf4d;
+                text-decoration: none;
+            }
         }
     }
 

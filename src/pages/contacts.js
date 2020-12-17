@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Layout from '../components/layout'
 import { IconContext } from 'react-icons'
-import { FaFacebook } from 'react-icons/fa'
+import { FaFacebook, FaPaw } from 'react-icons/fa'
 import ReactMapGL from 'react-map-gl'
 import contactsStyles from './contacts.module.scss'
 
@@ -30,11 +30,40 @@ const Contacts = () => {
 
     return (
         <Layout>
+            
             <div className={contactsStyles.contacts}>
+                 
                 <div className={contactsStyles.contacts__text}>
+                    
                     <p className={contactsStyles.contacts__text__intro}>
-                        Avete visto il cane dei vostri sogni o volete ulteriori informazioni? Se volete contattarci lo potete fare tramite la nostra pagina <span>Facebook {icon_link()}</span>, li' potrete trovare tutte le informazioni che cercate.
+                        Avete visto il cane dei vostri sogni o volete ulteriori informazioni?   
                     </p>
+                    <br />
+                    <p>
+                    Se volete contattarci potete farlo:
+                    </p>
+                    
+                    <ul>
+                        <li>
+                            <IconContext.Provider value={{style: {color: '#ffaf4d', fontSize: '3rem'}}}>
+                                <FaPaw className={contactsStyles.contacts__paw} />
+                            </IconContext.Provider>
+                            tramite la nostra pagina <span className= {contactsStyles.contacts__text__span}>{icon_link()}</span>
+                        </li>
+                        <li>
+                            <IconContext.Provider value={{style: {color: '#ffaf4d', fontSize: '3rem'}}}>
+                                <FaPaw className={contactsStyles.contacts__paw} />
+                            </IconContext.Provider>
+                            tramite cellulare <span>(+39) 3426080411</span>
+                        </li>
+                        <li>
+                            <IconContext.Provider value={{style: {color: '#ffaf4d', fontSize: '3rem'}}}>
+                                <FaPaw className={contactsStyles.contacts__paw} />
+                            </IconContext.Provider>
+                            tramite <a href="mailto:lacortedeigrandi@gmail.com">e-mail</a>
+                        </li>
+                    </ul>
+                    
                     <p>
                         Vi contatteremo al piu' presto!
                     </p>

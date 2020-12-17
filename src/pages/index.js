@@ -1,8 +1,8 @@
 import React from 'react'
 import Layout from '../components/layout'
 import indexStyles from './index.module.scss'
-import pic1 from '../assets/images/home/vertical1.jpg'
-import pic2 from '../assets/images/home/vertical2.jpg'
+import pic1 from '../assets/images/home/vertical2-scaled.jpg'
+import pic2 from '../assets/images/home/vertical1-scaled.jpg'
 // import pic3 from '../assets/images/home/home-pic3-ex.jpg'
 
 const Homepage = () => {
